@@ -14,4 +14,4 @@ Since grid or layout visibility toggling are the most common functions in design
 Voila! Now you can use familiar shortcuts with new functionality.
 
 ## Upcoming updates
-- [ ] Show/Hide Grid or Layout on all artboards with single command.
+- [ ] Show/Hide Grid or Layout on all document artboards with single command.
