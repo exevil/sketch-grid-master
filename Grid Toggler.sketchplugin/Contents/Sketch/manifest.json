@@ -1,0 +1,31 @@
+{
+  "author" : "Vyacheslav Dubovitsky",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Grid Toggler",
+      "shortcut" : "ctrl g",
+      "handler" : "toggleGrid",
+      "identifier" : "com.exevil.grid-toggler.toggleGrid"
+    },
+    {
+    "script" : "script.cocoascript",
+    "name" : "Toggle Layout",
+    "shortcut" : "ctrl l",
+    "handler" : "toggleLayout",
+    "identifier" : "com.exevil.grid-toggler.toggleLayout"
+    }
+  ],
+  "menu" : {
+    "title" : "Grid Toggler",
+    "items" : [
+      "com.exevil.grid-toggler.toggleGrid",
+      "com.exevil.grid-toggler.toggleLayout"
+    ]
+  },
+  "identifier" : "com.example.sketch.4288a233-1775-4acb-bef5-5a193db8eb22",
+  "version" : "1.0",
+  "description" : "Plugin that makes toggling visibility of grid and layout for multiple artboards real",
+  "authorEmail" : "m@dbv.ae",
+  "name" : "Grid Toggler"
+}
