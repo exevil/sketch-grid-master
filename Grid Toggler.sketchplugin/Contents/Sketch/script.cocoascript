@@ -1,24 +1,51 @@
-var mainFunction = function(context,isLayout) {
+/* Handlers */
+
+var toggleGridOnSelection = function(context) {
     var selection = context.selection
-    BOOL nowEnabled
+    var isLayout = false
+    var forSelection = true
+    mainFunction(selection,isLayout,forSelection)
+}
+
+var toggleLayoutOnSelection = function(context) {
+    var selection = context.selection
+    var isLayout = true
+    var forSelection = true
+    mainFunction(selection,isLayout,forSelection)
+}
+
+var toggleGridOnAllArtboards = function(context) {
+    var artboards = context.document.artboards()
+    var isLayout = false
+    var forSelection = false
+    mainFunction(artboards,isLayout,forSelection)
+}
+
+var toggleLayoutOnAllArtboards = function(context) {
+    var artboards = context.document.artboards()
+    var isLayout = true
+    var forSelection = false
+    mainFunction(artboards,isLayout,forSelection)
+}
+
+/* Functions */
+
+var mainFunction = function(layers,isLayout,forSelection) {
     
-    // Getting new grid value
-    var firstObject = [selection firstObject]
-    if (![firstObject isMemberOfClass:[MSArtboardGroup class]]) {
-        firstObject = [firstObject parentArtboard]
+    // Getting new toggle value
+    var firstObject = [layers firstObject]
+    if (forSelection) {
+        firstObject = checkForArtboard(firstObject)
     }
-    
-    // Checking if value nil and creates layout if not
     var target = isLayout ? [firstObject layout] : [firstObject grid]
-    nowEnabled = target ? ![target isEnabled] : true
+    var nowEnabled = target ? ![target isEnabled] : true
     
     // Setting new grid value
-    var loop = [selection objectEnumerator]
+    var loop = [layers objectEnumerator]
     while (item = [loop nextObject]) {
         
-        // Checking if selected layer is not an artboard
-        if (![item isMemberOfClass:[MSArtboardGroup class]]) {
-            item = [item parentArtboard]
+        if (forSelection) {
+            item = checkForArtboard(item)
         }
         
         // Checking if artboards have grid or layout yet
@@ -34,15 +61,11 @@ var mainFunction = function(context,isLayout) {
     }
 }
 
-
-// Handlers
-var toggleGrid = function(context) {
-    var isLayout = false
-    mainFunction(context,isLayout)
-}
-
-var toggleLayout = function(context) {
-    var selection = context.selection
-    var isLayout = true
-    mainFunction(context,isLayout)
+// Checking if selected layer is an artboard
+var checkForArtboard = function(layer) {
+    if ([layer isMemberOfClass:[MSArtboardGroup class]]) {
+        return layer
+    } else {
+        return [layer parentArtboard]
+    }
 }
