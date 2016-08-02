@@ -1,7 +1,7 @@
 # Sketch Grid Toggler
 Grid Toggler is a tiny Sketch plugin that fixes the long standing bug with switching grid and layout visibility for multiple artboards.
 
-![](http://i.dbv.ae/gqhy/Screen%20Recording%202016-08-01%20at%2002.54%20PM.gif)
+![](http://i.dbv.ae/gqxn/gif.gif)
 
 ## Installation
 Since grid or layout visibility toggling are the most common functions in design workflow I used regular CTRL+G & CTRL+L shortcuts in the plugin. To make it work as expected you should assign any different shortcut to Sketch's default Show Grid and Show Layout functions. Here're 4 easy steps how to do it:
