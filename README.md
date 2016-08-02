@@ -1,5 +1,5 @@
 # Sketch Grid Toggler
-Grid Toggler is a tiny Sketch plugin that fixes the long standing bug with switching grid and layout visibility for multiple artboards.
+Grid Toggler is a tiny Sketch plugin that fixes the long standing bug with toggling grid and layout visibility for multiple artboards. It also provides an easy way to toggle it for all artboards in document via single command.
 
 ![](http://i.dbv.ae/gqxn/gif.gif)
 
