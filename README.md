@@ -3,12 +3,15 @@ Grid Master is a Sketch plugin that fixes long-standing bugs and adds new functi
 
 ## Features
 **Toggle Grid/Layout** — fixes the long-standing bug with toggling grid and layout visibility for multiple artboards. Please check [Installation](https://github.com/exevil/sketch-grid-master#installation) to make it work as expected);
+
 ![Toggle Grid/Layout](http://i.dbv.ae/gxZV/1.gif)
 
 **Toggle Grid/Layout on All Artboards** — toggles Grid/Layout on all Artboards on current page via single command.
+
 ![Toggle Grid/Layout on All Artboards](http://i.dbv.ae/gyRZ/2.gif)
 
 **Grid/Layout Settings for All Artboards...** — opens regular Grid/Layout Settings dialog which affects all artobards on current page.
+
 ![Toggle Grid/Layout on All Artboards](http://i.dbv.ae/gxw7/3.gif)
 
 ## Installation
