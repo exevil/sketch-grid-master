@@ -23,6 +23,3 @@ Since grid or layout visibility toggling are the most common functions in design
 4. Repeat step 3 with "Show Layout" as Menu Title and CTRL+ALT+L as Keyboard Shortcut.
 
 Voila! Now you can use familiar shortcuts with new functionality.
-
-## Upcoming updates
-- [x] Toggle Grid or Layout on all artboards via single command.
