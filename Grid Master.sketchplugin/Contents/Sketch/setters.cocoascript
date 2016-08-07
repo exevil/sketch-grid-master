@@ -1,0 +1,11 @@
+// Handlers
+
+var gridSettingsForAllArtboards = function(context) {
+    var document = context.document
+    document.gridSettings(document.artboards())
+}
+
+var layoutSettingsForAllArtboards = function(context) {
+    var document = context.document
+    document.layoutSettings(document.artboards())
+}

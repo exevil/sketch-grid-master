@@ -1,0 +1,10 @@
+@import "shared_functions.coffescript"
+
+// Checking if selected layer is an artboard
+var checkForArtboard = function(layer) {
+    if (layer.isMemberOfClass(MSArtboardGroup)) {
+        return layer
+    } else {
+        return layer.parentArtboard()
+    }
+}

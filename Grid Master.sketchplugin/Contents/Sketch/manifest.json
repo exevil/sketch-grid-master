@@ -1,0 +1,65 @@
+{
+  "author" : "Vyacheslav Dubovitsky",
+  "commands" : [
+    {
+      "script" : "toggles.cocoascript",
+      "name" : "Toggle Grid",
+      "shortcut" : "ctrl g",
+      "handler" : "toggleGridOnSelection",
+      "identifier" : "com.exevil.grid-master.toggleGridOnSelection"
+    },
+    {
+    "script" : "toggles.cocoascript",
+    "name" : "Toggle Layout",
+    "shortcut" : "ctrl l",
+    "handler" : "toggleLayoutOnSelection",
+    "identifier" : "com.exevil.grid-master.toggleLayoutOnSelection"
+    },
+    {
+    "script" : "toggles.cocoascript",
+    "name" : "Toggle Grid on All Artboards",
+    "shortcut" : "ctrl shift g",
+    "handler" : "toggleGridOnAllArtboards",
+    "identifier" : "com.exevil.grid-master.toggleGridOnAllArtboards"
+    },
+    {
+    "script" : "toggles.cocoascript",
+    "name" : "Toggle Layout on All Artboards",
+    "shortcut" : "ctrl shift l",
+    "handler" : "toggleLayoutOnAllArtboards",
+    "identifier" : "com.exevil.grid-master.toggleLayoutOnAllArtboards"
+    },
+    {
+    "script" : "setters.cocoascript",
+    "name" : "Grid Settings For All Artboards...",
+    "shortcut" : "",
+    "handler" : "gridSettingsForAllArtboards",
+    "identifier" : "com.exevil.grid-master.gridSettingsForAllArtboards"
+    },
+    {
+    "script" : "setters.cocoascript",
+    "name" : "Layout Settings For All Artboards...",
+    "shortcut" : "",
+    "handler" : "layoutSettingsForAllArtboards",
+    "identifier" : "com.exevil.grid-master.layoutSettingsForAllArtboards"
+    }
+  ],
+  "menu" : {
+    "title" : "Grid Master",
+    "items" : [
+               "com.exevil.grid-master.toggleGridOnSelection",
+               "com.exevil.grid-master.toggleLayoutOnSelection",
+               "-",
+               "com.exevil.grid-master.toggleGridOnAllArtboards",
+               "com.exevil.grid-master.toggleLayoutOnAllArtboards",
+               "-",
+               "com.exevil.grid-master.gridSettingsForAllArtboards",
+               "com.exevil.grid-master.layoutSettingsForAllArtboards"
+    ]
+  },
+  "identifier" : "com.exevil.grid-master",
+  "version" : "1.0",
+  "description" : "Plugin that makes toggling visibility of grid and layout for multiple artboards real",
+  "authorEmail" : "m@dbv.ae",
+  "name" : "Grid Master"
+}
