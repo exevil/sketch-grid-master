@@ -25,4 +25,4 @@ Since grid or layout visibility toggling are the most common functions in design
 Voila! Now you can use familiar shortcuts with new functionality.
 
 ## Feedback
-Your feedback is always appreciated. You can [Create an Issue](your feedback is always appreciated) to fast report error or make feature request or drop me a line directly to [m@dbv.ae](mailto:m@dbv.ae?Subject=Sketch%20Grid%20Master%20Feedback)
+Your feedback is always appreciated. You can [Create an Issue](https://github.com/exevil/sketch-grid-master/issues/new) to fast report error or make feature request or drop me a line directly to [m@dbv.ae](mailto:m@dbv.ae?Subject=Sketch%20Grid%20Master%20Feedback)
