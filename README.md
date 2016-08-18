@@ -19,8 +19,8 @@ Since grid or layout visibility toggling are the most common functions in design
 
 1. [Download](https://github.com/exevil/sketch-grid-master/archive/master.zip) and install Sketch Grid Master as any usual plugin by click on it;
 2. Open  → System Preferences → Keyboard → Shortcuts → App Shortcuts and hit the + button;
-3. Choose Sketch.app as Application, enter "Show Grid" as Menu Title and assign CTRL+ALT+G as Keyboard Shortcut;
-4. Repeat step 3 with "Show Layout" as Menu Title and CTRL+ALT+L as Keyboard Shortcut.
+3. Choose Sketch.app as Application, enter "Show Grid" as Menu Title and assign `CTRL+ALT+G` as Keyboard Shortcut;
+4. Repeat step 3 with "Show Layout" as Menu Title and `CTRL+ALT+L` as Keyboard Shortcut.
 
 Voila! Now you can use familiar shortcuts with new functionality.
 
