@@ -15,7 +15,7 @@ Grid Master is a Sketch plugin that fixes long-standing bugs and adds new functi
 ![Toggle Grid/Layout on All Artboards](http://i.dbv.ae/gxw7/3.gif)
 
 ## Installation
-Since grid or layout visibility toggling are the most common functions in design workflow I used regular `CTRL+G` & `CTRL+L` shortcuts for these plugin commands. To make it work as expected you should assign any different shortcut to Sketch's default Show Grid and Show Layout functions. Here're 4 easy steps how to do it:
+Since grid or layout visibility toggling are the most common functions in design workflow I used regular `CTRL + G` & `CTRL + L` shortcuts for these plugin commands. To make it work as expected you should assign any different shortcut to Sketch's default Show Grid and Show Layout functions. Here're 4 easy steps how to do it:
 
 1. [Download](https://github.com/exevil/sketch-grid-master/archive/master.zip) and install Sketch Grid Master as any usual plugin by click on it;
 2. Open  → System Preferences → Keyboard → Shortcuts → App Shortcuts and hit the + button;
