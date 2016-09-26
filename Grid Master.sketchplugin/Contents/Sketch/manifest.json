@@ -58,7 +58,7 @@
     ]
   },
   "identifier" : "com.exevil.grid-master",
-  "version" : "1.0",
+  "version" : "1.1",
   "description" : "Plugin that makes toggling visibility of grid and layout for multiple artboards real",
   "authorEmail" : "m@dbv.ae",
   "name" : "Grid Master"

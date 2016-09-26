@@ -57,8 +57,7 @@ var mainFunction = function(layers,isLayout,forSelection) {
         // Checking if artboards have grid or layout and applying default one if not
         var target = isLayout ? item.layout() : item.grid()
         if (!target) {
-            var target = isLayout ? MSDefaultLayoutGrid.defaultLayout() : MSDefaultGrid.defaultGrid()
-            isLayout ? item.setPrimitiveLayout(target) : item.setPrimitiveGrid(target)
+            isLayout ? item.layout = MSDefaultLayoutGrid.defaultLayout() : item.grid = MSDefaultGrid.defaultGrid()
         }
         
         target = isLayout ? item.layout() : item.grid()
