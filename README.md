@@ -29,4 +29,5 @@ Your feedback is always appreciated. You can [Create an Issue](https://github.co
 
 ## Donation
 Even a small donation from your side is important. This is really motivating to see that people want to pay for your work.
+
 [![](https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=evil%2emrfix%40gmail%2ecom&lc=GB&item_name=Sketch%20Plugin%20Donation&item_number=sketch%2dplugin&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted)
