@@ -10,9 +10,7 @@ Grid Master is a Sketch plugin that fixes long-standing bugs and adds new functi
 
 ![Toggle Grid/Layout on All Artboards](http://i.dbv.ae/gyRZ/2.gif)
 
-**Grid/Layout Settings for All Artboards...** — opens regular Grid/Layout Settings dialog which affects all artobards on current page.
-
-![Toggle Grid/Layout on All Artboards](http://i.dbv.ae/gxw7/3.gif)
+~~**Grid/Layout Settings for All Artboards...** — opens regular Grid/Layout Settings dialog which affects all artobards on current page.~~ _Deprecated since Sketch added the same functionality_
 
 ## Installation
 Since grid or layout visibility toggling are the most common functions in design workflow I used regular `CTRL + G` & `CTRL + L` shortcuts for these plugin commands. To make it work as expected you should assign any different shortcut to Sketch's default Show Grid and Show Layout functions. Here're 4 easy steps how to do it:
