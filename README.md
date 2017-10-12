@@ -1,4 +1,4 @@
-# Sketch Grid Master (ex Grid Toggler)
+# Sketch Grid Master
 Grid Master is a Sketch plugin that fixes long-standing bugs and adds new functionaity related on work with Grid and Layout.
 
 ## Features
