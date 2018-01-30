@@ -11,7 +11,7 @@
     {
     "script" : "toggle.js",
     "name" : "Toggle Layout",
-    "shortcut" : "ctrl l",
+    "shortcut" : "ctrl b",
     "handler" : "toggleLayoutOnSelection",
     "identifier" : "com.exevil.grid-master.toggleLayoutOnSelection"
     },
@@ -25,7 +25,7 @@
     {
     "script" : "toggle.js",
     "name" : "Toggle Layout on All Artboards",
-    "shortcut" : "ctrl shift l",
+    "shortcut" : "ctrl shift b",
     "handler" : "toggleLayoutOnAllArtboards",
     "identifier" : "com.exevil.grid-master.toggleLayoutOnAllArtboards"
     }
@@ -41,8 +41,9 @@
     ]
   },
   "identifier" : "com.exevil.grid-master",
-  "version" : "1.2",
+  "version" : "1.3",
   "description" : "Plugin that makes toggling visibility of grid and layout for multiple artboards real",
   "authorEmail" : "m@dbv.ae",
-  "name" : "Grid Master"
+  "name" : "Grid Master",
+  "appcast" : "https://api.sketchpacks.com/v1/plugins/com.exevil.grid-master/appcast"
 }
